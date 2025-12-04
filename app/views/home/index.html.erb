@@ -1,0 +1,117 @@
+<div class="page-wrapper">
+
+  <!-- Background decorative layers -->
+  <div class="background-grid-layer"></div>
+  <div class="background-stars-layer"></div>
+  <div class="background-overlay-scanline"></div>
+
+  <!-- MAIN CONTENT -->
+  <main class="content-container">
+
+    <!-- TITLE SECTION -->
+    <section class="section title-section">
+      <h1 class="title-glitch" data-text="WELCOME TO 8-BIT WORLD">
+        WELCOME TO 8-BIT WORLD
+      </h1>
+
+      <p class="title-subtext">
+        A handcrafted retro-futuristic page created purely using HTML and CSS, without images or external assets.
+      </p>
+    </section>
+
+    <!-- PIXEL MOSAIC DECORATION -->
+    <section class="section pixel-mosaic-section">
+      <h2 class="section-heading">THE PIXEL DIMENSION</h2>
+
+      <div class="pixel-mosaic">
+        <% 80.times do %>
+          <div class="pixel-unit"></div>
+        <% end %>
+      </div>
+
+      <p class="section-desc">
+        These animated blocks are generated entirely by CSS — no sprites, no PNGs, no GIFs. 
+        Just pure, clean, handcrafted styles.
+      </p>
+    </section>
+
+    <!-- FEATURE GRID -->
+    <section class="section feature-section">
+      <h2 class="section-heading">WHAT DEFINES THIS PAGE</h2>
+
+      <div class="feature-grid">
+
+        <article class="feature-card">
+          <h3 class="feature-title">Pure CSS Craftsmanship</h3>
+          <p class="feature-text">
+            Every shape, glow, distortion, decoration, and motion is created purely with CSS — 
+            gradients, shadows, transforms, and keyframes.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3 class="feature-title">8-Bit Retro Essence</h3>
+          <p class="feature-text">
+            Design elements follow classic pixel art principles while combining subtle modern animation
+            to produce a nostalgic yet fresh experience.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3 class="feature-title">Full Responsive Layout</h3>
+          <p class="feature-text">
+            The layout adapts to all screen sizes — desktop widescreen, laptop, tablet, and phone —
+            while maintaining readable pixel-based structure.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3 class="feature-title">Glitch Typography</h3>
+          <p class="feature-text">
+            The title uses a multi-layered duplication system to create a dynamic glitch effect.
+            No JavaScript — just CSS and careful layering.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3 class="feature-title">Pixel Motion System</h3>
+          <p class="feature-text">
+            The pixel mosaic uses a randomized delay motion pattern, giving every tile 
+            a slightly different rhythm for a lively effect.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <h3 class="feature-title">CRT Display Simulation</h3>
+          <p class="feature-text">
+            Scanline overlays and subtle flicker recreate the feel of an old analog monitor,
+            adding texture and authenticity to the retro theme.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section class="section quote-section">
+      <blockquote class="retro-quote">
+        "Pixels may be small, but together they build universes."
+      </blockquote>
+    </section>
+
+    <!-- DIVIDER LINES -->
+    <section class="section divider-section">
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+      <div class="divider-line"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p class="footer-text">
+        © <%= Time.current.year %> 8-BIT WORLD &nbsp;|&nbsp; Crafted with passion, styled with CSS, powered by Ruby on Rails.
+      </p>
+    </footer>
+
+  </main>
+</div>
